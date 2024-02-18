@@ -24,6 +24,10 @@ export default function Navbar() {
                 <Link className="nav-link" to="/User/user2">User2</Link>
               </li>
 
+              <li className="nav-item">
+                <Link className="nav-link" to="/Filter">Filter</Link>
+              </li>
+
 
             </ul>
 
