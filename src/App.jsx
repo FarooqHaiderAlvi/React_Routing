@@ -4,6 +4,7 @@ import About from './Components/About';
 import Home from './Components/Home';
 import Navbar from './Components/Navbar';
 import Error404 from './Components/Error404';
+import User from './Components/User';
 
 // import {createBrowserRouter, RouterProvider} from 'react-router-dom';
 import { BrowserRouter, Routes, Route,Navigate } from 'react-router-dom';
@@ -28,6 +29,11 @@ function App() {
           I have to import Naviate and then define route like this */}
 
         <Route path="/*" element={<Navigate to="/" />} />
+
+
+        <Route path="/user/:name" element={ <> <Navbar /> <User /></>} />
+
+
         </Routes>
 
       </BrowserRouter>
