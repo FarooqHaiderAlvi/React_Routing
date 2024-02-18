@@ -3,7 +3,6 @@ import './App.css';
 import About from './Components/About';
 import Home from './Components/Home';
 import Navbar from './Components/Navbar';
-import Error404 from './Components/Error404';
 import User from './Components/User';
 
 // import {createBrowserRouter, RouterProvider} from 'react-router-dom';
