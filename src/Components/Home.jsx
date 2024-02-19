@@ -11,7 +11,7 @@ export default function Home() {
     return (
         <>
            I am home section of this application.         
-            <Link to="/About">About Page</Link>
+            <button className="btn btn-danger" ><Link to="/About" style={{'textDecoration':'none','color':'white'}}>About Page</Link> </button>
 <br/>
             <button className="btn btn-primary" onClick={()=>{navToPage('/Filter')}} > go to Filter</button>
             <button className="btn btn-primary mx-3" onClick={()=>{navToPage('/About')}} > User</button>
